@@ -1,0 +1,4 @@
+Day-2
+What is git and github?
+Github tutorial.
+making a repository and maintaining the project
