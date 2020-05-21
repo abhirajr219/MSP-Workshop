@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Abhi Blogs</title>
+    <script src="https://kit.fontawesome.com/4ab391dbd8.js" crossorigin="anonymous"></script>
+    </head>
+<body>
+    <style>
+        
+        td{
+            width: 100px;
+            height: 30px;
+            text-align: center;
+            font-weight: bold;
+        }
+        table{
+            margin-left: 50px;
+            margin-top: 30px;
+            border-radius: 5px;
+        }
+        .h3{
+            color: crimson;
+            padding-left: 30px;
+        }
+        th{
+            font-weight: bolder;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+        .heading2{
+            padding-left: 10px;
+            font-size: medium;
+            color: chartreuse;
+        }
+        h3{
+            padding-left: 15px;
+            font-weight: bold;
+            font-size: 20px;
+        }
+        .split{
+            height: 100%;
+        }
+        .left{
+       width: 70%;
+       left: 0;
+       background-color:lightblue;
+       position: relative;;
+   }
+   .right{
+       width: 30%;
+       right: 0;
+       background-color:floralwhite;
+       position: fixed;
+       margin-left: 15px;
+   }
+   .centered{
+       text-align:start;
+       position:relative;
+       margin-left: 15px;
+   }
+   .top{
+       text-align: start;
+       position: fixed;
+       margin-top: 15px;
+   }
+   form {
+  border: 3px solid #f1f1f1;
+}
+
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+
+button:hover {
+  opacity: 0.8;
+}
+
+
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+
+
+
+
+.container {
+  padding: 16px;
+}
+
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+
+@media screen and (max-width: 300px) {
+  span.psw {
+    display: block;
+    float: none;
+  }
+  .cancelbtn {
+    width: 100%;
+  }
+}
+    </style>
+    <header>
+        <i class="fab fa-airbnb" style="height: 20px;width: 20px;"></i>
+        <h1>Hello Guys,Welcome to Abhi Blogs!!!</h1> 
+    </header>
+    <main><p>Check this page for latest youtube updates and Songs.</p>
+    <div class="split left">
+        <div class="centered">
+            <form action="action_page.php" method="post">
+                
+              
+                <div class="container">
+                  <label for="uname"><b>Username</b></label>
+                  <input type="text" placeholder="Enter Username" name="uname" required>
+              
+                  <label for="psw"><b>Password</b></label>
+                  <input type="password" placeholder="Enter Password" name="psw" required>
+              
+                  <button type="submit">Login</button>
+                  <label>
+                    <input type="checkbox" checked="checked" name="remember"> Remember me
+                  </label>
+                </div>
+              
+                <div class="container" style="background-color:#f1f1f1">
+                  <button type="button" class="cancelbtn">Cancel</button>
+                  <span class="psw">Forgot <a href="#">password?</a></span>
+                </div>
+              </form>
+    <h2 style="padding-left: 30px;">Dude Perfect:Latest </h2>
+    <iframe width="500" height="290" src="https://www.youtube.com/embed/UeG1ftTmLAg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="margin-left: 100px;"></iframe>
+    <div class="heading2">
+        <h2>Most searched song:Song of the month</h2>
+    </div>
+    <h2 style="padding-left: 10px;">Humsafar From Badrinath ki Dulhania:</h2>
+    <audio src="https://pagalsong.in/uploads/systemuploads/mp3/Badrinath%20Ki%20Dulhania/Humsafar%20(Badrinath%20Ki%20Dulhania)%20128%20Kbps.mp3" style="margin-left:10px; background-color: brown;" controls >
+    humsafar song;
+    </audio>
+    <h3 class="h3">More hits</h3>
+    <table border="1">
+        <tr>
+        <th>Songs</th>
+        <th>Links</th>
+        </tr>
+        <tr>
+            <td rowspan="2">Tum hi ho</td>
+            <td><a href="https://pagalsongs.live/21453/tum-hi-ho-mp3-songs.html">Click here</a></td>
+        </tr>
+        <tr>
+            <td><a href="https://gaana.com/album/arijit-singh-tum-hi-ho">Click here</a></td>
+        </tr>
+        <tr>
+            <td>mandara(Bhaaghamathie movie)</td>
+            <td><a href="https://naasongs.com/bhaagamathie-2018.html">Click here</a></td>
+        </tr>
+        <tr>
+            <td rowspan="2">Coca Cola(luka chuppi movie)</td>
+            <td><a href="https://gaana.com/song/coca-cola-38">Click here</a></td>
+        </tr>
+        <tr>
+            <td><a href="https://www.hungama.com/song/coca-cola/46822488/">Click here</a></td>
+        </tr>
+    </table>
+    <h3><u>Song Alert</u></h3>
+    <a href="https://www.tseries.com/music">Ch3ck out the latest songs:T-Series</a>
+    
+</div>
+    </div>
+    <div class="split right">
+        <div class="top">
+            
+
+        </div>
+    </div>
+   
+    </main>
+    <footer></footer>
+</body>
+</html>
